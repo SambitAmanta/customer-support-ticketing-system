@@ -33,7 +33,6 @@ A full-stack customer support ticketing system built using:
 - Agents notified when new tickets are assigned.
 
 ### **📂 Project Structure**
-
 📦 customer-support-ticketing-system/
 ┣ 📂 customer-support-system/ (Spring Boot)
 ┃ ┣ 📂 src/main/java/com/example/ticketing/
