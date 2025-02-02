@@ -3,10 +3,10 @@
 
 A full-stack customer support ticketing system built using:
 
-✅ **Backend**: Spring Boot + Spring Security + JWT + MySQL
-✅ **Frontend**: Next.js (React) + Material-UI
-✅ **Authentication**: Role-based access (Admin, Agent, Customer)
-✅ **Features**: Ticket creation, management, filtering, assignments, dashboards
+-✅ **Backend**: Spring Boot + Spring Security + JWT + MySQL
+-✅ **Frontend**: Next.js (React) + Material-UI
+-✅ **Authentication**: Role-based access (Admin, Agent, Customer)
+-✅ **Features**: Ticket creation, management, filtering, assignments, dashboards
 
 ## **📝 Features**
 
@@ -34,29 +34,7 @@ A full-stack customer support ticketing system built using:
 
 ### **📂 Project Structure**
 
-📦 customer-support-ticketing-system/
-┣ 📂 customer-support-system/ (Spring Boot)
-┃ ┣ 📂 src/main/java/com/example/ticketing/
-┃ ┃ ┣ 📂 controller/      # REST API Controllers
-┃ ┃ ┣ 📂 model/           # Entities (User, Ticket)
-┃ ┃ ┣ 📂 repository/      # Database Repositories
-┃ ┃ ┣ 📂 service/         # Business Logic
-┃ ┃ ┣ 📂 security/        # JWT & Auth
-┃ ┃ ┗ 📂 util/            # Helper classes (e.g., EmailUtil)
-┃ ┣ 📂 resources/
-┃ ┃ ┗ 📄 application.properties  # Configurations
-┃ ┗ 📄 pom.xml            # Maven Dependencies
-┣ 📂 ticketing-system-frontend/ (Next.js)
-┃ ┣ 📂 pages/
-┃ ┃ ┣ 📂 dashboard/       # Role-based dashboards
-┃ ┃ ┣ 📂 tickets/         # Ticket listing & details
-┃ ┃ ┣ 📂 api/             # API handlers for authentication
-┃ ┃ ┗ 📄 login.tsx        # Login page
-┃ ┣ 📂 components/        # Navbar, ProtectedRoute
-┃ ┣ 📂 utils/             # JWT utilities
-┃ ┣ 📂 styles/            # Global CSS & modules
-┃ ┗ 📄 next.config.js     # Next.js configuration
-
+customer-support-ticketing-system/ │ ├── customer-support-system/ # Spring Boot Backend │ ├── src/main/java/com/example/ticketing/ │ │ ├── config/ # Security & JWT Configurations │ │ ├── controller/ # REST API Controllers │ │ ├── model/ # Database Entities (User, Ticket) │ │ ├── repository/ # JPA Repositories │ │ ├── service/ # Business Logic │ │ ├── security/ # Authentication & Authorization │ │ ├── util/ # Helper classes (Email Notifications) │ ├── src/main/resources/ │ │ ├── application.properties # Backend Configurations │ ├── pom.xml # Maven Dependencies │ ├── mvnw # Maven Wrapper │ ├── mvnw.cmd # Windows Maven Wrapper │ ├── ticketing-ticketing-frontend/ # Next.js (React) Frontend │ ├── pages/ # Next.js Pages (Routing) │ │ ├── dashboard/ # Role-based Dashboards (Admin, Agent, Customer) │ │ ├── tickets/ # Ticket List & Details Pages │ │ ├── api/ # API Handlers for Authentication │ │ ├── login.tsx # Login Page │ │ ├── profile.tsx # User Profile Page │ │ ├── 404.tsx # Custom 404 Page │ ├── components/ # Reusable Components (Navbar, Protected Routes) │ ├── utils/ # Utility Functions (JWT Decoding, Auth Helpers) │ ├── styles/ # CSS & Modules for Styling │ ├── public/ # Static Assets (Images, Favicons) │ ├── next.config.js # Next.js Configuration │ ├── package.json # Frontend Dependencies │ ├── README.md # Documentation
 
 ---
 
